@@ -1,8 +1,8 @@
 # Dialer
 
-Dialer is a simple Golang program that, given a hostname, establishes *n* TCP connections to it and then sleeps forever.
+Dialer is a simple Golang program that, given a `hostname:port` tuple, establishes *n* TCP connections to it and then sleeps forever.
 
-We use it as a way to test long-lasting connections in Scope.
+We use it as a way to benchmark long-lasting connections in Scope.
 
 ## USAGE
 
