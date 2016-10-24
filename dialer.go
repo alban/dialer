@@ -30,5 +30,6 @@ func main() {
 		}
 	}
 
+	// wait forever
 	select {}
 }
