@@ -1,2 +1,2 @@
 FROM golang:1.7
-ADD ./dialer /
+ADD ./dialer /go/bin
